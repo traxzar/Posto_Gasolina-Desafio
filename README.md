@@ -36,3 +36,45 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+Projeto Completo 
+
+ Estrutura da Classe
+A classe principal é Estacionamento, localizada no namespace:
+Projeto_Estacionamento.Models
+Ela contém:
+
+Atributos privados
+
+precoInicial — valor fixo cobrado na entrada
+precoPorHora — valor multiplicado pelo número de horas
+veiculos — lista de placas registradas
+
+Construtor
+
+Recebe o preço inicial e o preço por hora
+Métodos públicos
+
+AdicionarVeiculo()
+RemoverVeiculo()
+ListarVeiculos()
+
+AdicionarVeiculo()
+Solicita ao usuário uma placa e armazena na lista de veículos estacionados.
+
+RemoverVeiculo()
+Remove um veículo da lista, calcula o valor a pagar e exibe ao usuário.
+
+Funcionalidades:
+
+Verifica se a placa existe (ignorando maiúsculas/minúsculas)
+Solicita a quantidade de horas
+Calcula valorTotal = precoInicial + precoPorHora * horas
+Remove a placa da lista
+Informa o valor ao usuário
+
+Exemplo:
+
+Preço inicial: R$ 5,00
+Preço por hora: R$ 2,00
+Horas estacionado: 3
